@@ -1,0 +1,42 @@
+﻿Build started 12/20/2015 10:56:08 AM.
+     1>Project "C:\Users\Jonathan\Desktop\3D GameDev Final\3D GameDev Final.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Creating "Release\3D GameDev Final.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\game.cpp src\main.cpp src\player.cpp
+         game.cpp
+     1>src\game.cpp(53): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>src\game.cpp(53): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>src\game.cpp(58): warning C4018: '<' : signed/unsigned mismatch
+     1>src\game.cpp(108): warning C4018: '<' : signed/unsigned mismatch
+     1>src\game.cpp(121): warning C4018: '<' : signed/unsigned mismatch
+         main.cpp
+         player.cpp
+     1>src\player.cpp(14): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>src\player.cpp(29): warning C4390: ';' : empty controlled statement found; is this the intent?
+     1>src\player.cpp(35): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\3D GameDev Final.exe" /INCREMENTAL:NO /NOLOGO SDL2.lib SDL2main.lib opengl32.lib glew32.lib glu32.lib SDL_image.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\3D GameDev Final.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Jonathan\Desktop\3D GameDev Final\3D GameDev Final.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\3D GameDev Final.lib" /MACHINE:X86 Release\camera.obj
+         Release\collision.obj
+         Release\collisionplane.obj
+         Release\collisionsphere.obj
+         Release\game.obj
+         Release\level.obj
+         Release\main.obj
+         Release\objloader.obj
+         Release\player.obj
+         Release\vector.obj
+         Generating code
+         Finished generating code
+         3D GameDev Final.vcxproj -> C:\Users\Jonathan\Desktop\3D GameDev Final\.\3D GameDev Final.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\3D GameDev Final.exe;#1" /manifest "Release\3D GameDev Final.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\3D GameDev Final.unsuccessfulbuild".
+         Touching "Release\3D GameDev Final.lastbuildstate".
+     1>Done Building Project "C:\Users\Jonathan\Desktop\3D GameDev Final\3D GameDev Final.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.72
